@@ -9,9 +9,9 @@ public class Tema2Ejercicio9 {
 	public static void main(String[] args) {
 		//Declaramos las variables
 		int jugador1, jugador2;
-		final int piedra = 1;
-		final int papel = 2;
-		final int tijeras = 3;
+		final int PIEDRA = 1;
+		final int PAPEL = 2;
+		final int TIJERAS = 3;
 		
 		//Iniciamos el Scanner
 		Scanner lee = new Scanner(System.in);
@@ -30,22 +30,10 @@ public class Tema2Ejercicio9 {
 		if (jugador1 == jugador2) {
 			System.out.println("EMPATE!");
 		}
-		else if (jugador1 == 1 && jugador2 == 3) {
+		else if (jugador1 == PIEDRA && jugador2 == TIJERAS || jugador1 == PAPEL && jugador2 == PIEDRA || jugador1 == TIJERAS && jugador2 == PAPEL) {
 			System.out.println("Gana el jugador 1!");
 		}
-		else if (jugador1 == 2 && jugador2 == 1) {
-			System.out.println("Gana el jugador 1!");
-		}
-		else if (jugador1 == 3 && jugador2 == 2) {
-			System.out.println("Gana el jugador 1!");
-		}
-		else if (jugador2 == 1 && jugador1 == 3) {
-			System.out.println("Gana el jugador 2!");
-		}
-		else if (jugador2 == 2 && jugador1 == 1) {
-			System.out.println("Gana el jugador 2!");
-		}
-		else if (jugador2 == 3 && jugador1 == 2) {
+		else {
 			System.out.println("Gana el jugador 2!");
 		}
 		
