@@ -22,13 +22,7 @@ public class Tema2Ejercicio10 {
 		
 		//hacemos la condicion en la que si numero1User y numero2User son iguales a numero3User se imprima en pantalla 
 		
-		if (numero1User + numero2User == numero3User) {
-			System.out.println("La suma de 2 numeros da como resultado el otro.");
-		}
-		else if (numero2User + numero3User == numero1User) {
-			System.out.println("La suma de 2 numeros da como resultado el otro.");
-		}
-		else if (numero3User + numero1User == numero2User) {
+		if (numero1User + numero2User == numero3User || numero2User + numero3User == numero1User ||numero3User + numero1User == numero2User) {
 			System.out.println("La suma de 2 numeros da como resultado el otro.");
 		}
 		else {
