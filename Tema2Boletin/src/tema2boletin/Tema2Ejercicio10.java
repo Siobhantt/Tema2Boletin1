@@ -26,7 +26,7 @@ public class Tema2Ejercicio10 {
 			System.out.println("La suma de los 2 numeros da como resultado el tercero.");
 		}
 		else {
-			System.out.println("La suma de los 2 primeros numeros no da como resultado el tercero.");
+			System.out.println("La suma de los 2 primeros numeros NO da como resultado el tercero.");
 		}
 		
 		//cerramos el scanner
