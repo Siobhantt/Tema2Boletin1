@@ -50,7 +50,7 @@ public class Tema2Ejercicio5 {
 		
 		//Cerramos el scanner 
 		lee.close();
-		// TODO Auto-generated method stub
+		
 
 	}
 

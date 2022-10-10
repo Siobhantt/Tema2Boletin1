@@ -28,7 +28,7 @@ public class Tema2Ejercicio4 {
 		
 		//Cerramos el scanner
 		lee.close();
-		// TODO Auto-generated method stub
+		
 
 	}
 

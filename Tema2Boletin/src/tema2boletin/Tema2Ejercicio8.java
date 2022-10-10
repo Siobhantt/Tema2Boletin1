@@ -47,7 +47,6 @@ public class Tema2Ejercicio8 {
 		lee.close();
 		
 		
-		// TODO Auto-generated method stub
 
 	}
 
