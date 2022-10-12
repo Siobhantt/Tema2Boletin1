@@ -39,9 +39,7 @@ public class Tema2Ejercicio8 {
 		else if (nota<10 && nota >=9) {
 			System.out.println("Su nota es SOBRESALIENTE");
 		}
-		else if (nota<-1) {
-			System.out.println("La nota no puede contener numero negativos.");
-		}
+		
 		//cerramos el SCANNER
 		
 		lee.close();
